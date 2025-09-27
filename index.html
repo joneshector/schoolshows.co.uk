@@ -3,15 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#2d5016" />
-    <meta name="description" content="Science Sue - Professional Educational Services" />
+    <meta name="theme-color" content="#8B4513" />
+    <meta name="description" content="School Shows - Professional Theatre Scripts for Educational Institutions" />
     
-    <!-- Google Fonts - Professional fonts suitable for education -->
+    <!-- Google Fonts - Professional fonts suitable for theatre -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     
-    <title>Science Sue - Educational Excellence</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <title>School Shows - Theatre Scripts for Education</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -21,15 +24,15 @@
             <!-- Logo/Brand -->
             <a href="#home" class="navbar-brand">
                 <span class="brand-text">School Shows</span>
-                <span class="brand-subtitle">Educational Excellence</span>
+                <span class="brand-subtitle">Theatre Scripts for Education</span>
             </a>
 
             <!-- Desktop Navigation Menu -->
             <div class="navbar-menu" id="navbar-menu">
                 <a href="#home" class="navbar-item navbar-item-active" data-page="home">Home</a>
-                <a href="#reviews" class="navbar-item" data-page="reviews">Reviews</a>
-                <a href="#contact" class="navbar-item" data-page="contact">Contact</a>
+                <a href="#shows" class="navbar-item" data-page="shows">Shows</a>
                 <a href="#about" class="navbar-item" data-page="about">About</a>
+                <a href="#contact" class="navbar-item" data-page="contact">Contact</a>
             </div>
 
             <!-- Mobile Hamburger Menu -->
@@ -50,15 +53,15 @@
                 <section class="hero">
                     <div class="container">
                         <div class="hero-content">
-                            <h1 class="hero-title">Welcome to Science Sue Homepage</h1>
-                            <p class="hero-subtitle">Inspiring Educational Excellence</p>
+                            <h1 class="hero-title">Professional Theatre Scripts for Schools</h1>
+                            <p class="hero-subtitle">Inspiring Young Performers</p>
                             <p class="hero-description">
-                                Providing high-quality educational services with a focus on education leadership, 
-                                critical thinking, and academic achievement. Empowering schools to reach their 
-                                full potential.
+                                Discover our collection of high-quality theatre scripts designed specifically for 
+                                educational institutions. From classic adaptations to modern originals, we provide 
+                                engaging scripts that inspire creativity and build confidence in young performers.
                             </p>
                             <div class="hero-buttons">
-                                <a href="#contact" class="btn btn-primary">Get Started</a>
+                                <a href="#shows" class="btn btn-primary">Browse Shows</a>
                                 <a href="#about" class="btn btn-secondary">Learn More</a>
                             </div>
                         </div>
@@ -68,22 +71,22 @@
                 <!-- Features Section -->
                 <section class="features">
                     <div class="container">
-                        <h2 class="section-title">My Educational Approach</h2>
+                        <h2 class="section-title">Why Choose Our Scripts?</h2>
                         <div class="features-grid">
                             <div class="feature-card">
-                                <div class="feature-icon">🔬</div>
-                                <h3>Scientific Method</h3>
-                                <p>Building strong foundations in scientific thinking and methodology to develop critical analysis skills.</p>
+                                <div class="feature-icon"><i class="fas fa-theater-masks"></i></div>
+                                <h3>Educational Focus</h3>
+                                <p>Scripts specifically designed for school productions, with age-appropriate content and educational value.</p>
                             </div>
                             <div class="feature-card">
-                                <div class="feature-icon">📚</div>
-                                <h3>Personalized Learning</h3>
-                                <p>Tailored educational experiences that adapt to each student's unique learning style and pace.</p>
+                                <div class="feature-icon"><i class="fas fa-users"></i></div>
+                                <h3>Flexible Cast Sizes</h3>
+                                <p>Adaptable scripts that work with small intimate casts or large school productions with multiple roles.</p>
                             </div>
                             <div class="feature-card">
-                                <div class="feature-icon">🎯</div>
-                                <h3>Academic Excellence</h3>
-                                <p>Focused on achieving outstanding results while fostering a genuine love for learning and discovery.</p>
+                                <div class="feature-icon"><i class="fas fa-download"></i></div>
+                                <h3>Instant Access</h3>
+                                <p>Digital downloads available immediately after purchase, with full production rights included.</p>
                             </div>
                         </div>
                     </div>
@@ -93,113 +96,199 @@
                 <section class="cta">
                     <div class="container">
                         <div class="cta-content">
-                            <h2>Ready to Begin Your Educational Journey?</h2>
-                            <p>Join our community of learners and discover the joy of scientific discovery. Contact us today to learn more about our educational programs.</p>
-                            <a href="#contact" class="btn btn-primary">Contact Us Today</a>
+                            <h2>Ready to Bring Theatre to Your School?</h2>
+                            <p>Explore our collection of professional theatre scripts and find the perfect production for your students. Each script comes with full production rights and educational support materials.</p>
+                            <a href="#shows" class="btn btn-primary">Browse Our Shows</a>
                         </div>
                     </div>
                 </section>
             </div>
         </section>
 
-        <!-- Reviews Page -->
-        <section id="reviews" class="page-section">
-            <div class="reviews">
+        <!-- Shows Page -->
+        <section id="shows" class="page-section">
+            <div class="shows">
                 <div class="container">
                     <!-- Page Header -->
-                    <section class="reviews-header">
-                        <h1>What Our Students Say</h1>
-                        <p class="reviews-subtitle">
-                            Discover how Science Sue has helped students achieve their educational goals 
-                            and develop a genuine passion for scientific learning.
+                    <section class="shows-header">
+                        <h1>Our Theatre Scripts</h1>
+                        <p class="shows-subtitle">
+                            Professional scripts designed for educational theatre productions. 
+                            Each script includes full production rights, character guides, and staging notes.
                         </p>
                     </section>
 
-                    <!-- Reviews Grid -->
-                    <section class="reviews-grid">
-                        <div class="review-card">
-                            <div class="review-header">
-                                <div class="reviewer-info">
-                                    <h3 class="reviewer-name">Sarah Johnson</h3>
-                                    <p class="reviewer-role">Parent</p>
-                                </div>
-                                <div class="stars">
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                </div>
-                            </div>
-                            <blockquote class="review-content">
-                                "Science Sue has transformed my daughter's understanding of science. The personalized approach and engaging teaching methods have made all the difference. Highly recommended!"
-                            </blockquote>
-                        </div>
+                    <!-- Shows Grid -->
+                    <section class="shows-grid" id="shows-grid">
+                        <!-- Show tiles will be populated by JavaScript -->
+                    </section>
+                </div>
+            </div>
+        </section>
 
-                        <div class="review-card">
-                            <div class="review-header">
-                                <div class="reviewer-info">
-                                    <h3 class="reviewer-name">Michael Chen</h3>
-                                    <p class="reviewer-role">Student (Grade 10)</p>
-                                </div>
-                                <div class="stars">
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                </div>
+        <!-- Individual Show Page Template (Hidden by default) -->
+        <section id="show-detail" class="page-section show-detail">
+            <div class="show-detail-content">
+                <div class="container">
+                    <button class="back-button" onclick="showPage('shows')">
+                        <i class="fas fa-arrow-left"></i> Back to Shows
+                    </button>
+                    
+                    <div class="show-detail-grid">
+                        <div class="show-image-container">
+                            <div class="show-image" id="detail-image">
+                                <!-- Image will be populated by JavaScript -->
                             </div>
-                            <blockquote class="review-content">
-                                "I used to struggle with chemistry, but Sue's clear explanations and practical examples helped me not only understand but actually enjoy the subject. My grades have improved significantly!"
-                            </blockquote>
                         </div>
-
-                        <div class="review-card">
-                            <div class="review-header">
-                                <div class="reviewer-info">
-                                    <h3 class="reviewer-name">Emma Thompson</h3>
-                                    <p class="reviewer-role">Parent</p>
+                        
+                        <div class="show-info">
+                            <h1 id="detail-title">Show Title</h1>
+                            <div class="show-price" id="detail-price">£0.00</div>
+                            
+                            <div class="show-meta">
+                                <div class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span id="detail-duration">Duration</span>
                                 </div>
-                                <div class="stars">
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
+                                <div class="meta-item">
+                                    <i class="fas fa-users"></i>
+                                    <span id="detail-cast">Cast Size</span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-child"></i>
+                                    <span id="detail-age">Age Range</span>
                                 </div>
                             </div>
-                            <blockquote class="review-content">
-                                "Professional, knowledgeable, and patient. Sue has a gift for making complex scientific concepts accessible to young minds. Our son's confidence in science has grown tremendously."
-                            </blockquote>
+                            
+                            <div class="show-description" id="detail-description">
+                                <!-- Description will be populated by JavaScript -->
+                            </div>
+                            
+                            <div class="show-features">
+                                <h3>What's Included:</h3>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Complete script with stage directions</li>
+                                    <li><i class="fas fa-check"></i> Character breakdown and casting guide</li>
+                                    <li><i class="fas fa-check"></i> Production notes and staging suggestions</li>
+                                    <li><i class="fas fa-check"></i> Full performance rights for schools</li>
+                                    <li><i class="fas fa-check"></i> Digital download (PDF format)</li>
+                                </ul>
+                            </div>
+                            
+                            <button class="btn btn-primary btn-large">
+                                <i class="fas fa-shopping-cart"></i> Purchase Script
+                            </button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                        <div class="review-card">
-                            <div class="review-header">
-                                <div class="reviewer-info">
-                                    <h3 class="reviewer-name">James Wilson</h3>
-                                    <p class="reviewer-role">Student (Grade 12)</p>
-                                </div>
-                                <div class="stars">
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
-                                    <span class="star star-filled">★</span>
+        <!-- About Page -->
+        <section id="about" class="page-section">
+            <div class="about">
+                <div class="container">
+                    <!-- Page Header -->
+                    <section class="about-header">
+                        <h1>About School Shows</h1>
+                        <p class="about-subtitle">
+                            Dedicated to providing high-quality theatre scripts that inspire creativity, 
+                            build confidence, and bring the magic of live performance to educational settings.
+                        </p>
+                    </section>
+
+                    <!-- Main Content -->
+                    <section class="about-content">
+                        <div class="about-grid">
+                            <!-- Company Profile -->
+                            <div class="profile-section">
+                                <div class="profile-card">
+                                    <div class="profile-image">
+                                        <div class="profile-placeholder">
+                                            <i class="fas fa-theater-masks"></i>
+                                        </div>
+                                    </div>
+                                    <div class="profile-info">
+                                        <h2>School Shows</h2>
+                                        <p class="profile-title">Educational Theatre Specialists</p>
+                                        <p class="profile-credentials">
+                                            15+ Years Creating Scripts for Schools
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <blockquote class="review-content">
-                                "The preparation for my A-Level exams was excellent. Sue's structured approach and additional practice materials were exactly what I needed to achieve top grades."
-                            </blockquote>
+
+                            <!-- About Content -->
+                            <div class="about-text">
+                                <h2>Our Mission</h2>
+                                <p>
+                                    At School Shows, we believe that theatre has the power to transform young lives. 
+                                    Our carefully crafted scripts are designed to engage students, build confidence, 
+                                    and create memorable experiences that last a lifetime.
+                                </p>
+
+                                <p>
+                                    With over 15 years of experience in educational theatre, we understand the unique 
+                                    challenges and opportunities that school productions present. Our scripts are 
+                                    specifically written to be accessible, engaging, and educationally valuable.
+                                </p>
+
+                                <h3>Our Approach</h3>
+                                <ul class="approach-list">
+                                    <li>
+                                        <strong>Educational Value:</strong> Every script incorporates learning 
+                                        opportunities across multiple subjects and skills.
+                                    </li>
+                                    <li>
+                                        <strong>Inclusive Casting:</strong> Flexible roles that accommodate 
+                                        diverse cast sizes and abilities.
+                                    </li>
+                                    <li>
+                                        <strong>Professional Quality:</strong> High-standard scripts that 
+                                        rival professional theatre productions.
+                                    </li>
+                                    <li>
+                                        <strong>Teacher Support:</strong> Comprehensive guides and resources 
+                                        to support educators throughout the production process.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Values Section -->
+                    <section class="values">
+                        <h2>Our Values</h2>
+                        <div class="values-grid">
+                            <div class="value-card">
+                                <div class="value-icon"><i class="fas fa-heart"></i></div>
+                                <h3>Passion for Theatre</h3>
+                                <p>We believe in the transformative power of live performance and its ability to inspire creativity and confidence in young people.</p>
+                            </div>
+
+                            <div class="value-card">
+                                <div class="value-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <h3>Educational Excellence</h3>
+                                <p>Every script is designed with educational outcomes in mind, supporting curriculum goals and personal development.</p>
+                            </div>
+
+                            <div class="value-card">
+                                <div class="value-icon"><i class="fas fa-hands-helping"></i></div>
+                                <h3>Teacher Support</h3>
+                                <p>We provide comprehensive resources and ongoing support to help educators create successful productions.</p>
+                            </div>
                         </div>
                     </section>
 
                     <!-- Call to Action -->
-                    <section class="reviews-cta">
+                    <section class="about-cta">
                         <div class="cta-box">
-                            <h2>Ready to Join Our Success Stories?</h2>
-                            <p>Experience the difference that personalized, professional science education can make. Contact us today to begin your educational journey.</p>
-                            <a href="#contact" class="btn btn-primary">Get Started Today</a>
+                            <h2>Ready to Start Your Next Production?</h2>
+                            <p>
+                                Discover our collection of professional theatre scripts and bring the magic 
+                                of live performance to your students. Contact us today to learn more.
+                            </p>
+                            <a href="#contact" class="btn btn-primary">Get In Touch</a>
                         </div>
                     </section>
                 </div>
@@ -212,10 +301,10 @@
                 <div class="container">
                     <!-- Page Header -->
                     <section class="contact-header">
-                        <h1>Get In Touch</h1>
+                        <h1>Contact Us</h1>
                         <p class="contact-subtitle">
-                            Ready to begin your educational journey? We'd love to hear from you. 
-                            Contact us today to discuss how we can help you achieve your academic goals.
+                            Have questions about our scripts or need help choosing the right production 
+                            for your school? We're here to help you create an unforgettable theatre experience.
                         </p>
                     </section>
 
@@ -224,18 +313,18 @@
                         <div class="contact-grid">
                             <!-- Contact Information -->
                             <div class="contact-info">
-                                <h2>Contact Information</h2>
+                                <h2>Get In Touch</h2>
                                 
                                 <div class="info-item">
-                                    <div class="info-icon">📧</div>
+                                    <div class="info-icon"><i class="fas fa-envelope"></i></div>
                                     <div class="info-content">
                                         <h3>Email</h3>
-                                        <p>sue@sciencesue.co.uk</p>
+                                        <p>info@schoolshows.co.uk</p>
                                     </div>
                                 </div>
 
                                 <div class="info-item">
-                                    <div class="info-icon">📱</div>
+                                    <div class="info-icon"><i class="fas fa-phone"></i></div>
                                     <div class="info-content">
                                         <h3>Phone</h3>
                                         <p>+44 (0) 123 456 7890</p>
@@ -243,23 +332,23 @@
                                 </div>
 
                                 <div class="info-item">
-                                    <div class="info-icon">🕒</div>
+                                    <div class="info-icon"><i class="fas fa-clock"></i></div>
                                     <div class="info-content">
-                                        <h3>Hours</h3>
-                                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br />
-                                           Saturday: 10:00 AM - 4:00 PM<br />
+                                        <h3>Business Hours</h3>
+                                        <p>Monday - Friday: 9:00 AM - 5:00 PM<br />
+                                           Saturday: 10:00 AM - 2:00 PM<br />
                                            Sunday: Closed</p>
                                     </div>
                                 </div>
 
                                 <div class="info-item">
-                                    <div class="info-icon">🎓</div>
+                                    <div class="info-icon"><i class="fas fa-theater-masks"></i></div>
                                     <div class="info-content">
                                         <h3>Services</h3>
-                                        <p>Individual Tutoring<br />
-                                           Group Sessions<br />
-                                           Exam Preparation<br />
-                                           Online Learning</p>
+                                        <p>Theatre Scripts<br />
+                                           Production Support<br />
+                                           Custom Adaptations<br />
+                                           Educational Resources</p>
                                     </div>
                                 </div>
                             </div>
@@ -281,18 +370,18 @@
 
                                     <div class="form-row">
                                         <div class="form-group">
-                                            <label for="phone">Phone Number</label>
-                                            <input type="tel" id="phone" name="phone">
+                                            <label for="school">School/Organization</label>
+                                            <input type="text" id="school" name="school">
                                         </div>
                                         <div class="form-group">
                                             <label for="subject">Subject *</label>
                                             <select id="subject" name="subject" required>
                                                 <option value="">Select a subject</option>
-                                                <option value="tutoring">Individual Tutoring</option>
-                                                <option value="group">Group Sessions</option>
-                                                <option value="exam">Exam Preparation</option>
-                                                <option value="online">Online Learning</option>
-                                                <option value="other">Other Inquiry</option>
+                                                <option value="script-inquiry">Script Inquiry</option>
+                                                <option value="production-support">Production Support</option>
+                                                <option value="custom-adaptation">Custom Adaptation</option>
+                                                <option value="licensing">Licensing Questions</option>
+                                                <option value="other">Other</option>
                                             </select>
                                         </div>
                                     </div>
@@ -300,7 +389,7 @@
                                     <div class="form-group">
                                         <label for="message">Message *</label>
                                         <textarea id="message" name="message" rows="6" 
-                                                  placeholder="Please tell us about your educational goals and how we can help..." 
+                                                  placeholder="Tell us about your production needs, cast size, age range, or any specific requirements..." 
                                                   required></textarea>
                                     </div>
 
@@ -312,137 +401,8 @@
                 </div>
             </div>
         </section>
-
-        <!-- About Page -->
-        <section id="about" class="page-section">
-            <div class="about">
-                <div class="container">
-                    <!-- Page Header -->
-                    <section class="about-header">
-                        <h1>About Science Sue</h1>
-                        <p class="about-subtitle">
-                            Dedicated to inspiring scientific curiosity and academic excellence 
-                            through personalized education and professional expertise.
-                        </p>
-                    </section>
-
-                    <!-- Main Content -->
-                    <section class="about-content">
-                        <div class="about-grid">
-                            <!-- Professional Profile -->
-                            <div class="profile-section">
-                                <div class="profile-card">
-                                    <div class="profile-image">
-                                        <div class="profile-placeholder">
-                                            <img class="profile-image" src="images/sue_image.jpeg" alt="Profile Picture">
-                                        </div>
-                                    </div>
-                                    <div class="profile-info">
-                                        <h2>Sue Dudman Jones</h2>
-                                        <p class="profile-title">Primary Education Specialist</p>
-                                        <p class="profile-credentials">
-                                            35+ Years Educational Leadership Experience
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- About Content -->
-                            <div class="about-text">
-                                <h2>My Educational Philosophy</h2>
-                                <p>
-                                    I believe that every student has the potential to excel in science when provided 
-                                    with the right guidance, support, and learning environment. My approach combines 
-                                    rigorous academic standards with engaging, practical methods that make complex 
-                                    scientific concepts accessible and enjoyable.
-                                </p>
-
-                                <p>
-                                    With over 15 years of experience in science education, I have had the privilege 
-                                    of helping hundreds of students discover their passion for scientific learning 
-                                    and achieve their academic goals. From struggling beginners to advanced students 
-                                    preparing for university entrance, I tailor my teaching methods to meet each 
-                                    student's unique needs and learning style.
-                                </p>
-
-                                <h3>My Approach</h3>
-                                <ul class="approach-list">
-                                    <li>
-                                        <strong>Personalized Learning:</strong> Every student learns differently. 
-                                        I adapt my teaching methods to match individual learning styles and pace.
-                                    </li>
-                                    <li>
-                                        <strong>Practical Application:</strong> Science comes alive when students 
-                                        can see real-world applications and conduct hands-on experiments.
-                                    </li>
-                                    <li>
-                                        <strong>Building Confidence:</strong> I focus on building students' 
-                                        confidence through positive reinforcement and achievable goals.
-                                    </li>
-                                    <li>
-                                        <strong>Critical Thinking:</strong> Beyond memorization, I encourage 
-                                        students to question, analyze, and think critically about scientific concepts.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Qualifications Section -->
-                    <section class="qualifications">
-                        <h2>Qualifications & Experience</h2>
-                        <div class="qualifications-grid">
-                            <div class="qualification-card">
-                                <div class="qual-icon">🎓</div>
-                                <h3>Education</h3>
-                                <ul>
-                                    <li>PhD in Organic Chemistry - University of Cambridge</li>
-                                    <li>MSc in Science Education - University of Oxford</li>
-                                    <li>BSc (Hons) Chemistry - Imperial College London</li>
-                                    <li>PGCE Secondary Science - King's College London</li>
-                                </ul>
-                            </div>
-
-                            <div class="qualification-card">
-                                <div class="qual-icon">🏆</div>
-                                <h3>Achievements</h3>
-                                <ul>
-                                    <li>Outstanding Teacher Award (2019, 2021)</li>
-                                    <li>Published researcher in science education</li>
-                                    <li>Exam board consultant for A-Level Chemistry</li>
-                                    <li>100% pass rate for A-Level students (2020-2023)</li>
-                                </ul>
-                            </div>
-
-                            <div class="qualification-card">
-                                <div class="qual-icon">🔬</div>
-                                <h3>Specializations</h3>
-                                <ul>
-                                    <li>GCSE & A-Level Chemistry</li>
-                                    <li>GCSE & A-Level Biology</li>
-                                    <li>GCSE Physics</li>
-                                    <li>University entrance preparation</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Call to Action -->
-                    <section class="about-cta">
-                        <div class="cta-box">
-                            <h2>Ready to Start Your Scientific Journey?</h2>
-                            <p>
-                                Let's work together to unlock your potential in science. Contact me today 
-                                to discuss your educational goals and how I can help you achieve them.
-                            </p>
-                            <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </section>
     </main>
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
