@@ -6,108 +6,130 @@
 // Mock data for theatre shows
 const showsData = [
     {
-        id: 'alice-wonderland',
-        title: 'Alice in Wonderland',
-        price: '£25.00',
-        icon: 'fas fa-hat-wizard',
-        description: 'A whimsical journey down the rabbit hole with Alice and her extraordinary friends.',
-        fullDescription: `Join Alice on her incredible adventure through Wonderland in this enchanting adaptation perfect for school productions. This script captures all the magic and wonder of Lewis Carroll's beloved classic while being tailored specifically for young performers.
+        id: 'around-world-80-days',
+        title: 'Around the World in 80 Days',
+        price: '£32.00',
+        icon: 'fas fa-globe',
+        description: 'Join Phileas Fogg on his incredible journey around the world in this thrilling adventure.',
+        fullDescription: `Embark on an extraordinary journey with Phileas Fogg and his loyal servant Passepartout as they attempt to circumnavigate the globe in just 80 days to win a remarkable wager.
 
-The story follows Alice as she tumbles down the rabbit hole into a world of talking animals, mad tea parties, and impossible riddles. Students will love portraying the colorful characters including the White Rabbit, the Cheshire Cat, the Mad Hatter, and the fearsome Queen of Hearts.
+This exciting adaptation of Jules Verne's classic novel brings adventure, humor, and cultural discovery to your school stage. Students will be transported to exotic locations including India, Japan, the American Wild West, and beyond, encountering fascinating characters and overcoming incredible obstacles along the way.
 
-This adaptation includes opportunities for creative staging, costume design, and set decoration that will engage students both on stage and behind the scenes. The script is written with flexible casting in mind, allowing for intimate productions or large ensemble pieces.`,
-        duration: '90 minutes',
-        castSize: '12-25 actors',
-        ageRange: 'Ages 8-16',
+The production offers wonderful opportunities for creative staging, period costumes, and ensemble work representing different cultures and locations. With roles ranging from the determined Phileas Fogg to the resourceful Passepartout, and numerous supporting characters from around the world, this script provides meaningful parts for students of all abilities.
+
+Perfect for teaching geography, history, and cultural awareness while delivering an entertaining theatrical experience that will captivate audiences of all ages.`,
+        duration: '95 minutes',
+        castSize: '16-35 actors',
+        ageRange: 'Ages 9-17',
+        genre: 'Adventure Drama'
+    },
+    {
+        id: 'the-hobbit',
+        title: 'The Hobbit',
+        price: '£35.00',
+        icon: 'fas fa-dragon',
+        description: 'Follow Bilbo Baggins on his unexpected journey to the Lonely Mountain in this beloved fantasy tale.',
+        fullDescription: `Join Bilbo Baggins, a comfortable hobbit from the Shire, as he embarks on an unexpected adventure with thirteen dwarves and the wizard Gandalf to reclaim the lost Dwarf Kingdom of Erebor from the fearsome dragon Smaug.
+
+This enchanting adaptation of J.R.R. Tolkien's beloved novel captures all the magic, humor, and heart of the original story while being perfectly suited for school productions. Students will love portraying memorable characters including the brave Bilbo, the wise Gandalf, the proud dwarf leader Thorin, and the cunning Gollum.
+
+The production offers incredible opportunities for creative staging, fantasy costumes, and special effects. From the cozy hobbit-hole of Bag End to the treacherous Misty Mountains, from the dark depths of Mirkwood to the majestic halls under the Mountain, this adaptation brings Middle-earth to vivid life.
+
+With themes of courage, friendship, and personal growth, this script provides valuable lessons while delivering an unforgettable theatrical experience. The flexible casting allows for both intimate and large-scale productions.`,
+        duration: '110 minutes',
+        castSize: '18-40 actors',
+        ageRange: 'Ages 10-18',
         genre: 'Fantasy Adventure'
     },
     {
-        id: 'robin-hood',
-        title: 'Robin Hood: Hero of Sherwood',
-        price: '£30.00',
-        icon: 'fas fa-crosshairs',
-        description: 'The legendary tale of Robin Hood and his Merry Men fighting for justice in medieval England.',
-        fullDescription: `Experience the thrilling adventures of Robin Hood and his band of Merry Men in this action-packed adaptation that brings medieval England to life on your school stage.
+        id: 'three-oranges',
+        title: 'For the Love of Three Oranges',
+        price: '£28.00',
+        icon: 'fas fa-seedling',
+        description: 'A whimsical fairy tale opera adaptation filled with magic, humor, and unexpected adventures.',
+        fullDescription: `Experience the delightful absurdity of Prokofiev's famous opera in this charming adaptation that brings the magical world of fairy tales to your school stage.
 
-This exciting script follows Robin Hood as he fights against the corrupt Sheriff of Nottingham and protects the people of England while King Richard is away on the Crusades. Students will be captivated by the heroic deeds, clever schemes, and memorable characters including Little John, Friar Tuck, Maid Marian, and the villainous Sheriff.
+This enchanting production tells the story of a melancholy Prince who can only be cured by laughter, leading to a quest for three magical oranges that contain beautiful princesses. Along the way, audiences will encounter witches, demons, a giant cook, and other fantastical characters in a story that celebrates the power of joy and love.
 
-The production offers excellent opportunities for sword fighting choreography, archery demonstrations (with safe props), and period costume design. The script includes both dramatic moments and comedic relief, ensuring audience engagement throughout. With roles for both large and small casts, this adaptation can be tailored to your school's specific needs.`,
-        duration: '100 minutes',
-        castSize: '15-30 actors',
-        ageRange: 'Ages 10-18',
-        genre: 'Historical Adventure'
+The adaptation maintains the whimsical spirit of the original opera while making it accessible and engaging for young performers. Students will delight in the colorful characters, magical transformations, and comedic situations that drive this unique fairy tale forward.
+
+Perfect for schools looking to introduce students to opera and classical music traditions while providing opportunities for creative staging, elaborate costumes, and ensemble musical numbers. The script includes simplified musical elements that can be adapted to your school's musical capabilities.`,
+        duration: '85 minutes',
+        castSize: '14-30 actors',
+        ageRange: 'Ages 8-16',
+        genre: 'Musical Fantasy'
     },
     {
-        id: 'shakespeare-kids',
-        title: 'Shakespeare for Kids: A Midsummer Night\'s Dream',
+        id: 'magic-flute',
+        title: 'The Magic Flute',
+        price: '£38.00',
+        icon: 'fas fa-music',
+        description: 'Mozart\'s beloved opera adapted for young performers, filled with magic, music, and moral lessons.',
+        fullDescription: `Discover the magic of Mozart's most beloved opera in this specially adapted version that makes the timeless story accessible and engaging for school productions.
+
+Follow Prince Tamino on his quest to rescue Pamina, guided by a magical flute and accompanied by the bird-catcher Papageno. Together they must overcome trials of fire and water, confront the evil Queen of the Night, and learn valuable lessons about love, wisdom, and courage from the wise Sarastro.
+
+This adaptation preserves the essential musical and dramatic elements of Mozart's masterpiece while simplifying the language and staging requirements for educational theatre. Students will be introduced to classical opera traditions while developing their musical and dramatic skills through memorable arias, duets, and ensemble pieces.
+
+The production offers wonderful opportunities for music education, vocal development, and creative staging. With roles ranging from heroic princes and princesses to comedic characters like Papageno, this adaptation provides meaningful parts for students with varying musical abilities while teaching the values of perseverance, wisdom, and true love.`,
+        duration: '100 minutes',
+        castSize: '16-32 actors',
+        ageRange: 'Ages 12-18',
+        genre: 'Classical Opera'
+    },
+    {
+        id: 'midsummer-nights-dream',
+        title: 'Midsummer Night\'s Dream',
         price: '£35.00',
         icon: 'fas fa-masks-theater',
-        description: 'A delightfully accessible version of Shakespeare\'s magical comedy, perfect for young performers.',
-        fullDescription: `Introduce your students to the magic of Shakespeare with this beautifully adapted version of A Midsummer Night's Dream, specially crafted for young performers and audiences.
+        description: 'Shakespeare\'s magical comedy of love, mischief, and transformation in the enchanted forest.',
+        fullDescription: `Enter the enchanted world of Shakespeare's most beloved comedy in this accessible adaptation that brings the magic of the fairy kingdom to your school stage.
 
-This enchanting production maintains the essence and beauty of Shakespeare's language while making it accessible and engaging for school-age actors. The story weaves together the romantic complications of four young Athenians, the theatrical ambitions of a group of amateur actors, and the magical mischief of the fairy kingdom.
+When four young lovers flee to the forest outside Athens, they become entangled in the mischievous schemes of Puck and the fairy king Oberon. Meanwhile, a group of amateur actors rehearsing a play for the Duke's wedding find themselves transformed by fairy magic, leading to hilarious complications and magical romance.
 
-Students will delight in playing iconic characters like Puck, Oberon, Titania, and Bottom, while learning valuable lessons about love, friendship, and the power of imagination. The script includes simplified Shakespearean dialogue that retains the poetic beauty while being understandable to young audiences.
+This adaptation maintains the poetic beauty of Shakespeare's language while making it accessible to young performers and audiences. Students will delight in playing iconic characters like the mischievous Puck, the regal fairy queen Titania, the transformed Bottom, and the confused young lovers, while learning valuable lessons about love, friendship, and the power of imagination.
 
-Perfect for introducing students to classical theatre, this adaptation includes staging notes for creating magical transformations, fairy dances, and comedic physical theatre. The flexible casting allows for creative doubling and ensemble work.`,
-        duration: '85 minutes',
-        castSize: '16-28 actors',
+The production offers wonderful opportunities for creative staging, costume design, and special effects to bring the magical transformations to life. With themes of love conquering all obstacles and the triumph of comedy over conflict, this timeless play provides both entertainment and educational value.`,
+        duration: '95 minutes',
+        castSize: '16-30 actors',
         ageRange: 'Ages 12-18',
         genre: 'Classical Comedy'
     },
     {
-        id: 'pirates-adventure',
-        title: 'Pirates of Treasure Island',
-        price: '£28.00',
-        icon: 'fas fa-skull-crossbones',
-        description: 'Ahoy mateys! A swashbuckling adventure on the high seas with pirates, treasure, and friendship.',
-        fullDescription: `Set sail for adventure with this thrilling pirate tale that combines the excitement of treasure hunting with valuable lessons about friendship, courage, and doing what's right.
+        id: 'canterbury-tales',
+        title: 'Canterbury Tales',
+        price: '£30.00',
+        icon: 'fas fa-horse',
+        description: 'Chaucer\'s timeless stories brought to life in an entertaining collection of medieval tales.',
+        fullDescription: `Journey back to medieval England with Geoffrey Chaucer's pilgrims as they travel to Canterbury Cathedral, sharing entertaining tales along the way in this engaging adaptation of the classic work.
 
-Young Jim Hawkins discovers an old treasure map and embarks on a dangerous voyage to find the legendary treasure of Captain Flint. Along the way, he encounters a crew of colorful pirates, including the infamous Long John Silver, and learns that the greatest treasures in life aren't always gold and jewels.
+This production brings together some of Chaucer's most beloved and accessible stories, including tales of knights, millers, nuns, and merchants, each with their own unique personality and perspective on life in the Middle Ages. Students will be transported to a world of chivalry, humor, and human nature that remains relevant today.
 
-This swashbuckling adventure is perfect for schools looking to create an exciting, action-packed production. The script includes opportunities for sea shanties, sword fighting choreography, and creative staging to simulate life aboard a pirate ship. Students will love the larger-than-life characters and the themes of adventure and moral growth.
+The adaptation presents Chaucer's stories in modern English while preserving the spirit and moral lessons of the original tales. Students will enjoy portraying the diverse cast of pilgrims, each representing different aspects of medieval society, from the noble Knight to the cunning Wife of Bath.
 
-With roles ranging from brave heroes to dastardly villains, and plenty of ensemble opportunities for the pirate crew, this production can accommodate various cast sizes while ensuring every student has a meaningful part to play.`,
-        duration: '95 minutes',
-        castSize: '18-35 actors',
-        ageRange: 'Ages 9-17',
-        genre: 'Adventure Musical'
+Perfect for teaching medieval history, literature, and social studies, this production offers opportunities for period costume design, ensemble work, and storytelling techniques. The episodic structure allows for flexible casting and can be adapted to highlight specific tales that best suit your students and educational goals.`,
+        duration: '90 minutes',
+        castSize: '12-28 actors',
+        ageRange: 'Ages 11-17',
+        genre: 'Historical Drama'
     },
     {
-        id: 'wizard-oz',
-        title: 'The Wonderful Wizard of Oz',
-        price: '£32.00',
-        icon: 'fas fa-rainbow',
-        description: 'Follow the yellow brick road in this beloved tale of Dorothy\'s magical journey to the Emerald City.',
-        fullDescription: `There's no place like home! Experience the timeless magic of L. Frank Baum's beloved story in this spectacular adaptation that brings the Land of Oz to vivid life on your school stage.
-
-Join Dorothy and her faithful dog Toto as they're swept away by a tornado to the magical Land of Oz. Along the yellow brick road, they meet the Scarecrow who wants a brain, the Tin Man who longs for a heart, and the Cowardly Lion who seeks courage. Together, they journey to the Emerald City to meet the mysterious Wizard of Oz.
-
-This production offers incredible opportunities for creative staging, colorful costumes, and memorable musical numbers. From the tornado sequence to the poppy field, from the Emerald City to the Witch's castle, students and audiences will be transported to a world of wonder and imagination.
-
-The script includes beloved songs and dialogue that capture the heart and spirit of the original story while being perfectly suited for school productions. With opportunities for both featured roles and large ensemble pieces, this adaptation ensures every student can contribute to the magic.`,
-        duration: '105 minutes',
-        castSize: '20-40 actors',
-        ageRange: 'Ages 7-16',
-        genre: 'Fantasy Musical'
-    },
-    {
-        id: 'christmas-carol',
-        title: 'A Christmas Carol',
+        id: 'jones-family-christmas',
+        title: 'A Jones Family Christmas',
         price: '£26.00',
         icon: 'fas fa-snowflake',
-        description: 'Dickens\' heartwarming tale of redemption and the true spirit of Christmas.',
-        fullDescription: `Celebrate the magic of Christmas with Charles Dickens' timeless tale of Ebenezer Scrooge's transformation from a bitter miser to a man filled with love and generosity.
+        description: 'A heartwarming modern Christmas story about family, forgiveness, and the true meaning of the holidays.',
+        fullDescription: `Celebrate the magic of Christmas with the Jones family in this heartwarming original story that explores the true meaning of the holiday season through laughter, tears, and ultimately, love.
 
-This beautiful adaptation captures all the warmth, humor, and heart of Dickens' beloved story while being perfectly suited for school productions. Students will be moved by Scrooge's journey through his past, present, and future, guided by the three Christmas Spirits who show him the true meaning of Christmas.
+When the Jones family gathers for their annual Christmas celebration, old rivalries, forgotten dreams, and long-held secrets threaten to ruin the holiday. But through a series of touching and humorous events, family members young and old rediscover the importance of forgiveness, understanding, and the bonds that tie families together.
 
-The production offers wonderful opportunities for period costume design, atmospheric lighting effects, and heartwarming ensemble moments. From the bustling streets of Victorian London to the cozy warmth of the Cratchit family home, this adaptation brings Dickens' world to vivid life.
+This contemporary Christmas play addresses modern family dynamics while celebrating traditional holiday values. Students will relate to characters dealing with real-life issues like sibling rivalry, generational differences, career pressures, and the challenge of maintaining family connections in a busy world.
 
-With memorable characters like Tiny Tim, Bob Cratchit, the three Christmas Spirits, and of course, Scrooge himself, this production offers meaningful roles for students of all ages and abilities. The themes of redemption, family, and the spirit of giving make this an ideal choice for holiday productions that will touch hearts and inspire audiences.`,
-        duration: '80 minutes',
-        castSize: '14-30 actors',
+The production offers wonderful opportunities for realistic character development, contemporary staging, and the incorporation of beloved Christmas traditions. With roles for multiple generations and various personality types, this script ensures that every student can find a character that resonates with their own experiences and abilities.`,
+        duration: '85 minutes',
+        castSize: '10-22 actors',
         ageRange: 'Ages 8-18',
-        genre: 'Holiday Drama'
+        genre: 'Contemporary Holiday Drama'
     }
 ];
 
