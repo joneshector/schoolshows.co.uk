@@ -130,6 +130,186 @@ The production offers wonderful opportunities for realistic character developmen
         castSize: '10-22 actors',
         ageRange: 'Ages 8-18',
         genre: 'Contemporary Holiday Drama'
+    },
+    {
+        id: 'heracles',
+        title: 'Heracles',
+        price: '£32.00',
+        icon: 'fas fa-dumbbell',
+        description: 'The legendary Greek hero embarks on his famous twelve labors in this epic adventure.',
+        fullDescription: `Witness the legendary tale of Heracles (Hercules), the greatest hero of ancient Greece, as he undertakes his famous twelve labors to atone for his past and achieve immortality.
+
+From slaying the Nemean Lion and defeating the nine-headed Hydra to capturing the Golden Hind and cleaning the Augean Stables, students will bring to life the most famous adventures from Greek mythology. This epic production combines action, drama, and mythology to create an unforgettable theatrical experience.
+
+The script offers wonderful opportunities for creative staging, spectacular costumes representing various mythological creatures, and ensemble work. Students will learn about ancient Greek culture, mythology, and the timeless themes of redemption, perseverance, and heroism.
+
+Perfect for teaching classical mythology and ancient history while providing roles for a wide range of abilities and interests. The episodic structure of the twelve labors allows for flexible casting and creative interpretation.`,
+        duration: '100 minutes',
+        castSize: '15-35 actors',
+        ageRange: 'Ages 10-17',
+        genre: 'Mythological Adventure'
+    },
+    {
+        id: 'story-of-galileo',
+        title: 'The Story of Galileo',
+        price: '£30.00',
+        icon: 'fas fa-space-shuttle',
+        description: 'The inspiring story of the father of modern science and his revolutionary discoveries.',
+        fullDescription: `Discover the fascinating life of Galileo Galilei, the brilliant scientist who changed our understanding of the universe and challenged the beliefs of his time.
+
+This compelling historical drama follows Galileo's journey from curious mathematician to revolutionary astronomer, as he develops the telescope, discovers the moons of Jupiter, and defends the heliocentric model of the solar system against powerful opposition from the Church.
+
+Students will explore themes of scientific inquiry, intellectual courage, and the conflict between new ideas and established authority. The production brings to life the excitement of scientific discovery while examining the personal cost of standing up for truth.
+
+Perfect for teaching science history, the scientific method, and critical thinking. The script provides opportunities for period staging, demonstrations of scientific principles, and thoughtful examination of how scientific progress shapes society.`,
+        duration: '90 minutes',
+        castSize: '12-28 actors',
+        ageRange: 'Ages 11-18',
+        genre: 'Historical Drama'
+    },
+    {
+        id: 'lord-of-the-rings',
+        title: 'Lord of the Rings',
+        price: '£40.00',
+        icon: 'fas fa-ring',
+        description: 'Tolkien\'s epic fantasy quest to destroy the One Ring and save Middle-earth.',
+        fullDescription: `Embark on the greatest quest in fantasy literature as Frodo Baggins and the Fellowship journey across Middle-earth to destroy the One Ring in the fires of Mount Doom.
+
+This epic adaptation brings together the most memorable moments from Tolkien's masterpiece: the formation of the Fellowship, the mines of Moria, the enchanted forest of Lothlórien, the breaking of the Fellowship, the battle of Helm's Deep, and the final confrontation at Mount Doom.
+
+Students will bring to life beloved characters including brave hobbits, wise wizards, noble elves, stalwart dwarves, and valiant humans as they fight against the dark forces of Sauron. The production offers incredible opportunities for spectacular staging, fantasy costumes, battle choreography, and special effects.
+
+With themes of friendship, courage, sacrifice, and the triumph of good over evil, this adaptation provides valuable lessons while delivering an unforgettable theatrical experience. The flexible script can be adapted for various production scales.`,
+        duration: '120 minutes',
+        castSize: '20-45 actors',
+        ageRange: 'Ages 11-18',
+        genre: 'Epic Fantasy'
+    },
+    {
+        id: 'revolting-rhymes',
+        title: 'Revolting Rhymes (Roald Dahl)',
+        price: '£28.00',
+        icon: 'fas fa-book',
+        description: 'Roald Dahl\'s wickedly funny twisted versions of classic fairy tales.',
+        fullDescription: `Experience Roald Dahl's brilliantly twisted take on classic fairy tales in this hilariously dark comedy that turns beloved stories upside down.
+
+Discover what really happened to Cinderella, Little Red Riding Hood, the Three Little Pigs, Snow White, and Goldilocks in these clever, rhyming retellings that reveal unexpected truths about fairy tale characters. Dahl's signature wit and dark humor shine through as familiar stories take surprising and delightfully wicked turns.
+
+Students will love performing these irreverent versions of classic tales, complete with Dahl's memorable rhyming couplets and unexpected plot twists. The production offers wonderful opportunities for comedy, character transformation, and creative staging that plays with audience expectations.
+
+Perfect for introducing students to Roald Dahl's unique storytelling style while developing performance skills in comedy and verse. The episodic structure allows for flexible casting and creative interpretation of these beloved twisted tales.`,
+        duration: '75 minutes',
+        castSize: '10-25 actors',
+        ageRange: 'Ages 8-15',
+        genre: 'Comedy'
+    },
+    {
+        id: 'king-arthur',
+        title: 'King Arthur',
+        price: '£35.00',
+        icon: 'fas fa-crown',
+        description: 'The legendary tale of King Arthur, Excalibur, and the Knights of the Round Table.',
+        fullDescription: `Journey to the mythical kingdom of Camelot and witness the rise of the legendary King Arthur, from pulling the sword from the stone to establishing the Knights of the Round Table.
+
+This enchanting production brings together the most beloved elements of Arthurian legend: the magical sword Excalibur, the wise wizard Merlin, the noble knights Lancelot and Gawain, the beautiful Queen Guinevere, and the quest for the Holy Grail. Students will explore themes of chivalry, honor, loyalty, and the responsibilities of leadership.
+
+The script offers wonderful opportunities for period costumes, sword choreography, magical effects, and the recreation of medieval court life. From the mystery of Arthur's birth to the tragedy of Camelot's fall, this adaptation captures both the majesty and humanity of the Arthurian legends.
+
+Perfect for teaching medieval history, literature, and the values of the Age of Chivalry. With roles ranging from kings and queens to knights and commoners, this production provides meaningful parts for students of all abilities.`,
+        duration: '105 minutes',
+        castSize: '16-38 actors',
+        ageRange: 'Ages 10-18',
+        genre: 'Legendary Adventure'
+    },
+    {
+        id: 'robin-hood',
+        title: 'Robin Hood',
+        price: '£32.00',
+        icon: 'fas fa-bullseye',
+        description: 'The heroic outlaw of Sherwood Forest who steals from the rich to give to the poor.',
+        fullDescription: `Join Robin Hood and his Merry Men in Sherwood Forest as they fight against the tyranny of the Sheriff of Nottingham and Prince John, stealing from the rich to give to the poor.
+
+This thrilling adventure brings to life one of England's most beloved folk heroes. Students will portray memorable characters including the brave Robin Hood, loyal Little John, clever Maid Marian, jolly Friar Tuck, and the villainous Sheriff of Nottingham in a story filled with archery contests, daring rescues, and fights for justice.
+
+The production offers exciting opportunities for stage combat, archery choreography, period costumes, and forest staging. With themes of social justice, loyalty, courage, and standing up against oppression, this timeless tale continues to inspire audiences of all ages.
+
+Perfect for teaching medieval English history and social justice themes while providing action-packed entertainment. The ensemble nature of the Merry Men allows for flexible casting and ensures meaningful roles for the entire cast.`,
+        duration: '95 minutes',
+        castSize: '14-32 actors',
+        ageRange: 'Ages 9-17',
+        genre: 'Adventure Drama'
+    },
+    {
+        id: 'alice-in-wonderland',
+        title: 'Alice in Wonderland',
+        price: '£30.00',
+        icon: 'fas fa-hat-wizard',
+        description: 'Lewis Carroll\'s surreal journey down the rabbit hole into a world of wonder and nonsense.',
+        fullDescription: `Tumble down the rabbit hole with Alice into the magical, mysterious, and utterly mad world of Wonderland in this enchanting adaptation of Lewis Carroll's beloved classic.
+
+Follow Alice as she encounters the frantic White Rabbit, attends a mad tea party with the Mad Hatter and March Hare, receives advice from the enigmatic Cheshire Cat, plays croquet with the temperamental Queen of Hearts, and navigates the nonsensical logic of Wonderland's peculiar inhabitants.
+
+This whimsical production offers incredible opportunities for imaginative staging, fantastical costumes, surreal set design, and creative character interpretation. Students will delight in portraying the bizarre and memorable characters that populate Carroll's wonderland while exploring themes of identity, growing up, and the power of imagination.
+
+Perfect for developing creativity, comedy skills, and ensemble work. The episodic structure and large cast of quirky characters allow for flexible casting and encourage bold, imaginative performance choices.`,
+        duration: '85 minutes',
+        castSize: '12-30 actors',
+        ageRange: 'Ages 8-16',
+        genre: 'Fantasy Comedy'
+    },
+    {
+        id: 'story-of-leonardo',
+        title: 'The Story of Leonardo',
+        price: '£30.00',
+        icon: 'fas fa-paint-brush',
+        description: 'The life of Leonardo da Vinci, the ultimate Renaissance man and genius inventor.',
+        fullDescription: `Explore the extraordinary life of Leonardo da Vinci, the Renaissance genius whose talents spanned art, science, engineering, and invention, and whose curiosity knew no bounds.
+
+This inspiring biographical drama follows Leonardo from his early days as an apprentice in Florence through his greatest achievements: painting the Mona Lisa and The Last Supper, designing flying machines and war engines, studying human anatomy, and dreaming of inventions centuries ahead of his time.
+
+Students will discover how Leonardo's insatiable curiosity, keen observation, and boundless imagination made him one of history's greatest minds. The production explores the tension between Leonardo's artistic genius and his scientific pursuits, showing how his diverse interests enriched all his work.
+
+Perfect for teaching Renaissance history, the relationship between art and science, and the value of curiosity and lifelong learning. The script provides opportunities for creative staging that brings Leonardo's sketches and inventions to life.`,
+        duration: '90 minutes',
+        castSize: '12-28 actors',
+        ageRange: 'Ages 10-18',
+        genre: 'Historical Biography'
+    },
+    {
+        id: 'oliver',
+        title: 'Oliver',
+        price: '£38.00',
+        icon: 'fas fa-building',
+        description: 'The classic musical tale of an orphan boy seeking belonging in Victorian London.',
+        fullDescription: `Experience the beloved musical adaptation of Charles Dickens' Oliver Twist, telling the heartwarming and heartbreaking story of a young orphan boy's search for love and belonging in Victorian London.
+
+Follow young Oliver from the workhouse to the undertaker's, from the streets of London to Fagin's den of pickpockets, as he encounters memorable characters including the Artful Dodger, the kind Mr. Brownlow, the sinister Bill Sikes, and the tragic Nancy. Through it all, Oliver maintains his innocence and goodness despite the harsh world around him.
+
+This musical production features beloved songs including "Food, Glorious Food," "Consider Yourself," "As Long As He Needs Me," and many more. The show offers wonderful opportunities for large ensemble numbers, period costumes, Victorian London staging, and powerful emotional moments.
+
+Perfect for teaching Victorian history, social issues, and the power of kindness and perseverance. With roles ranging from young children to adults, this classic musical provides meaningful parts for students of all ages and abilities.`,
+        duration: '120 minutes',
+        castSize: '20-50 actors',
+        ageRange: 'Ages 9-18',
+        genre: 'Classic Musical'
+    },
+    {
+        id: 'marriage-of-figaro',
+        title: 'Marriage of Figaro',
+        price: '£35.00',
+        icon: 'fas fa-heart',
+        description: 'Mozart\'s sparkling opera about love, intrigue, and social class in 18th century Spain.',
+        fullDescription: `Delight in Mozart's brilliant comic opera, a tale of love, jealousy, and social satire set in the household of the Count and Countess Almaviva in 18th century Spain.
+
+On the day of his wedding to Susanna, the clever servant Figaro must outwit his master the Count, who has designs on Figaro's bride. Through a series of elaborate schemes, disguises, and misunderstandings, the servants and nobility engage in a battle of wits that challenges social hierarchies and celebrates the triumph of love and fidelity.
+
+This adaptation preserves Mozart's sparkling music and the wit of the original libretto while making the opera accessible for school productions. Students will develop their musical and dramatic skills through memorable arias, ensembles, and comic situations, all set to some of the most beautiful music ever written.
+
+Perfect for introducing students to opera and classical music while exploring themes of class, equality, love, and marriage. The production offers opportunities for period costumes, ensemble singing, and the sophisticated comedy of manners.`,
+        duration: '110 minutes',
+        castSize: '14-30 actors',
+        ageRange: 'Ages 13-18',
+        genre: 'Comic Opera'
     }
 ];
 
@@ -232,6 +412,7 @@ function updatePageTitle(pageId) {
     const titles = {
         'home': 'School Shows - Theatre Scripts for Education',
         'shows': 'Our Shows - School Shows',
+        'reviews': 'Reviews - School Shows',
         'about': 'About Us - School Shows',
         'contact': 'Contact - School Shows',
         'show-detail': 'Show Details - School Shows'
@@ -381,7 +562,7 @@ document.addEventListener('click', function(e) {
         const targetId = e.target.getAttribute('href').substring(1);
         
         // Check if it's a page navigation
-        const pages = ['home', 'shows', 'about', 'contact'];
+        const pages = ['home', 'shows', 'reviews', 'about', 'contact'];
         if (pages.includes(targetId)) {
             showPage(targetId);
         } else {
