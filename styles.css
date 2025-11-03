@@ -363,32 +363,106 @@ a:hover {
   margin: 0 auto 3rem auto;
 }
 
-.gallery-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+.gallery-carousel {
+  position: relative;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 60px;
 }
 
-.gallery-item {
-  border-radius: 12px;
+.carousel-container {
   overflow: hidden;
+  border-radius: 12px;
   box-shadow: 0 4px 20px var(--shadow);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.gallery-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 30px var(--shadow-strong);
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
 
-.gallery-image {
+.carousel-slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-cream);
+}
+
+.carousel-image {
   width: 100%;
   height: auto;
+  max-height: 600px;
   object-fit: contain;
   display: block;
-  background-color: var(--background-cream);
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(139, 69, 19, 0.95);
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  z-index: 999;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-btn i {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.carousel-btn:hover {
+  background: var(--primary-medium);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.carousel-btn-prev {
+  left: 0;
+}
+
+.carousel-btn-next {
+  right: 0;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.carousel-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--border-light);
+  border: 2px solid var(--primary-light);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicator:hover {
+  background: var(--primary-light);
+}
+
+.carousel-indicator.active {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
 }
 
 .features {
@@ -562,6 +636,114 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 0.25rem;
+}
+
+/* ===== REVIEWS PAGE STYLES ===== */
+.reviews {
+  min-height: 100vh;
+  padding: 40px 0 80px;
+}
+
+.reviews-header {
+  text-align: center;
+  padding: 60px 0;
+  background: linear-gradient(135deg, var(--background-cream) 0%, var(--background-white) 100%);
+}
+
+.reviews-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-dark);
+}
+
+.reviews-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-medium);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+  padding: 60px 0;
+}
+
+.review-card {
+  background: var(--background-white);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px var(--shadow);
+  border: 1px solid var(--border-light);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(139, 69, 19, 0.15);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.reviewer-info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.25rem;
+  color: var(--primary-dark);
+}
+
+.reviewer-role {
+  font-size: 0.9rem;
+  color: var(--text-medium);
+  font-style: italic;
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.star-filled {
+  color: var(--accent-gold);
+}
+
+.review-content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+  font-style: italic;
+  margin: 0;
+  position: relative;
+  padding-left: 1rem;
+  border-left: 3px solid var(--primary-light);
+}
+
+.review-content::before {
+  content: '"';
+  font-size: 3rem;
+  color: var(--primary-light);
+  position: absolute;
+  left: -1rem;
+  top: -1rem;
+  font-family: 'Crimson Text', serif;
+  opacity: 0.3;
+}
+
+.reviews-cta {
+  padding: 60px 0;
+  text-align: center;
 }
 
 /* ===== SHOW DETAIL PAGE STYLES ===== */
@@ -1169,9 +1351,18 @@ a:hover {
     margin-bottom: 2rem;
   }
 
-  .gallery-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+  .gallery-carousel {
+    padding: 0 50px;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .carousel-image {
+    max-height: 400px;
   }
 
   .features-grid {
@@ -1217,6 +1408,51 @@ a:hover {
   .show-tile-meta {
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  /* Reviews Mobile */
+  .reviews-header {
+    padding: 40px 0;
+  }
+
+  .reviews-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .reviews-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 40px 0;
+  }
+
+  .review-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .review-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .reviewer-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .review-content {
+    font-size: 1rem;
+  }
+
+  .cta-box {
+    padding: 2rem 1.5rem;
+  }
+
+  .cta-box h2 {
+    font-size: 1.8rem;
   }
 
   /* Show Detail Mobile */
@@ -1368,12 +1604,49 @@ a:hover {
     font-size: 2.5rem;
   }
 
+  .gallery-carousel {
+    padding: 0 35px;
+  }
+
+  .carousel-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+
+  .carousel-image {
+    max-height: 300px;
+  }
+
+  .carousel-indicators {
+    gap: 8px;
+  }
+
+  .carousel-indicator {
+    width: 10px;
+    height: 10px;
+  }
+
   .shows-header h1 {
     font-size: 1.8rem;
   }
 
   .show-tile-content {
     padding: 1rem;
+  }
+
+  .reviews-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .review-card {
+    padding: 1.5rem;
+  }
+
+  .review-content::before {
+    font-size: 2rem;
+    left: -0.5rem;
+    top: -0.5rem;
   }
 
   .show-image {

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#8B4513" stroke="#DAA520" stroke-width="3"/>
+  
+  <!-- Comedy mask (left) -->
+  <g transform="translate(25, 45)">
+    <!-- Mask face -->
+    <ellipse cx="0" cy="0" rx="15" ry="18" fill="#FFF8DC" stroke="#2F2F2F" stroke-width="1.5"/>
+    <!-- Eye (smiling) -->
+    <ellipse cx="-5" cy="-3" rx="2.5" ry="3" fill="#2F2F2F"/>
+    <ellipse cx="5" cy="-3" rx="2.5" ry="3" fill="#2F2F2F"/>
+    <!-- Smiling mouth -->
+    <path d="M -8,5 Q 0,12 8,5" stroke="#2F2F2F" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Tragedy mask (right) -->
+  <g transform="translate(75, 45)">
+    <!-- Mask face -->
+    <ellipse cx="0" cy="0" rx="15" ry="18" fill="#FFF8DC" stroke="#2F2F2F" stroke-width="1.5"/>
+    <!-- Eye (sad) -->
+    <ellipse cx="-5" cy="-2" rx="2.5" ry="3" fill="#2F2F2F"/>
+    <ellipse cx="5" cy="-2" rx="2.5" ry="3" fill="#2F2F2F"/>
+    <!-- Frowning mouth -->
+    <path d="M -8,8 Q 0,2 8,8" stroke="#2F2F2F" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative ribbon at top -->
+  <path d="M 30,25 Q 50,20 70,25" stroke="#DAA520" stroke-width="2" fill="none"/>
+  <circle cx="30" cy="25" r="3" fill="#DAA520"/>
+  <circle cx="70" cy="25" r="3" fill="#DAA520"/>
+</svg>
+
